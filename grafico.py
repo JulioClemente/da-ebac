@@ -18,3 +18,4 @@ import pandas as pd
 df_venda= pd.read_csv('/content/gasolina.csv')
 grafico = sns.lineplot(data=df_venda, x = 'dia',y= 'venda')
 # código de geração do gráfico 
+#teste
